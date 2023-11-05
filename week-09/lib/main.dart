@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:week09/red_text_widget.dart';
 
 void main() {
   runApp(const MainApp());
@@ -9,10 +10,29 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                color: Colors.yellowAccent,
+                width: 50,
+                child: const RedTextWidget(
+                  text: 'You have pushed the button this many times:',
+                ),
+              ),
+              Container(
+                color: Colors.greenAccent,
+                width: 100,
+                child: const Text(
+                  'You have pushed the button this many times:',
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
