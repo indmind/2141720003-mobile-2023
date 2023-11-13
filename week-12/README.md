@@ -59,3 +59,11 @@ Kode tersebut berfungsi untuk mendefinisikan fungsi yang akan dijalankan secara 
 Sedangkan `count()` berfungsi untuk menjumlahkan nilai yang dikembalikan oleh fungsi `returnOneAsync`, `returnTwoAsync`, dan `returnThreeAsync` dan mengubah nilai dari variabel `result` menjadi hasil penjumlahan tersebut.
 
 ![Soal 4](docs/s4.gif)
+
+## Praktikum 3
+
+#### Soal 5
+Jelaskan maksud kode langkah 2 tersebut!
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5".
+
+![Soal 5](docs/s5.gif)

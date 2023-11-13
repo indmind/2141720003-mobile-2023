@@ -35,6 +35,20 @@ class FuturePage extends StatefulWidget {
 class _FuturePageState extends State<FuturePage> {
   String result = '';
   bool isLoading = false;
+
+  late final Completer completer;
+
+  Future getNumber() {
+    completer = Completer<int>();
+    calculate();
+    return completer.future;
+  }
+
+  Future calculate() async {
+    await Future.delayed(const Duration(seconds: 5));
+    completer.complete(42);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -64,7 +78,13 @@ class _FuturePageState extends State<FuturePage> {
               //   });
               // }));
 
-              count();
+              // count();
+
+              getNumber().then((value) {
+                setState(() {
+                  result = value.toString();
+                });
+              });
             },
           ),
           const Spacer(),
