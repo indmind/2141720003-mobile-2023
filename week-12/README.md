@@ -137,3 +137,25 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 
 Tidak ada perbedaan karena tidak terjadi error.
 
+## Praktikum 7
+
+### Soal 15
+Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+Silakan ganti dengan warna tema favorit Anda.
+
+```dart
+return Scaffold(
+  backgroundColor: color,
+  appBar: AppBar(
+    title: const Text("Navigate first screen Tio"),
+  ),
+  body: Center(
+    child: ElevatedButton(
+      child: const Text("Change Color"),
+      onPressed: () {
+        _navigateAndGetColor(context);
+      },
+    ),
+  ),
+);
+```
