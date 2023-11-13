@@ -89,3 +89,11 @@ Jelaskan maksud perbedaan kode langkah 1 dan 4!
 Perbedaan dari FutureGroup dan Future.wait hanyalah penggunaan FutureGroup membutuhkan package `package:async` sedangkan Future.wait menggunakan package `dart:async`. Namun secara fungsionalitas sama.
 
 ![Soal 8](docs/s8.gif)
+
+## Praktikum 5
+
+### Soal 9
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 9".
+
+![Soal 9](docs/s9.gif)
+
