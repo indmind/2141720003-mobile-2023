@@ -75,3 +75,10 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 Maksud kode tersebut adalah untuk menampilkan hasil dari fungsi `getNumber()` yang akan mengembalikan nilai 1 setelah 3 detik. Jika fungsi tersebut mengembalikan nilai, maka nilai tersebut akan ditampilkan pada variabel `result`. Jika fungsi tersebut mengembalikan error, maka variabel `result` akan diubah menjadi 'An error occurred'.
 
 ![Soal 6](docs/s5.gif)
+
+## Praktikum 4
+
+### Soal 7
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 7".
+
+![Soal 7](docs/s7.gif)

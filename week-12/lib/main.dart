@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:async/async.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
@@ -86,13 +87,15 @@ class _FuturePageState extends State<FuturePage> {
               //   });
               // });
 
-              getNumber().then((value) {
-                setState(() {
-                  result = value.toString();
-                });
-              }).catchError((e) {
-                result = 'An error occurred';
-              });
+              // getNumber().then((value) {
+              //   setState(() {
+              //     result = value.toString();
+              //   });
+              // }).catchError((e) {
+              //   result = 'An error occurred';
+              // });
+
+              returnFG();
             },
           ),
           const Spacer(),
@@ -134,6 +137,28 @@ class _FuturePageState extends State<FuturePage> {
 
     setState(() {
       result = total.toString();
+    });
+  }
+
+  void returnFG() {
+    FutureGroup<int> futureGroup = FutureGroup<int>();
+
+    futureGroup.add(returnOneAsync());
+    futureGroup.add(returnTwoAsync());
+    futureGroup.add(returnThreeAsync());
+
+    futureGroup.close();
+
+    futureGroup.future.then((List<int> value) {
+      int total = 0;
+
+      for (int i = 0; i < value.length; i++) {
+        total += value[i];
+      }
+
+      setState(() {
+        result = total.toString();
+      });
     });
   }
 }
