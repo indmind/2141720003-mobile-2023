@@ -82,3 +82,10 @@ Maksud kode tersebut adalah untuk menampilkan hasil dari fungsi `getNumber()` ya
 Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 7".
 
 ![Soal 7](docs/s7.gif)
+
+### Soal 8
+Jelaskan maksud perbedaan kode langkah 1 dan 4!
+
+Perbedaan dari FutureGroup dan Future.wait hanyalah penggunaan FutureGroup membutuhkan package `package:async` sedangkan Future.wait menggunakan package `dart:async`. Namun secara fungsionalitas sama.
+
+![Soal 8](docs/s8.gif)
