@@ -129,3 +129,11 @@ Seperti yang Anda lihat, menggunakan FutureBuilder lebih efisien, clean, dan rea
 
 ![Soal 13](docs/s13.gif)
 
+### Soal 14
+Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 14".
+
+![Soal 14](docs/s13.gif)
+
+Tidak ada perbedaan karena tidak terjadi error.
+
