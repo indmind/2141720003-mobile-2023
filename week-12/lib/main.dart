@@ -96,15 +96,17 @@ class _FuturePageState extends State<FuturePage> {
 
               // returnFG();
 
-              returnError().then((value) {
-                setState(() {
-                  result = 'Success';
-                });
-              }).catchError((e) {
-                setState(() {
-                  result = e.toString();
-                });
-              }).whenComplete(() => print("Complete"));
+              // returnError().then((value) {
+              //   setState(() {
+              //     result = 'Success';
+              //   });
+              // }).catchError((e) {
+              //   setState(() {
+              //     result = e.toString();
+              //   });
+              // }).whenComplete(() => print("Complete"));
+
+              handleError();
             },
           ),
           const Spacer(),
@@ -181,5 +183,17 @@ class _FuturePageState extends State<FuturePage> {
   Future returnError() async {
     await Future.delayed(const Duration(seconds: 2));
     throw Exception('Something terrible happened!');
+  }
+
+  Future handleError() async {
+    try {
+      await returnError();
+    } catch (e) {
+      setState(() {
+        result = e.toString();
+      });
+    } finally {
+      print('Complete');
+    }
   }
 }

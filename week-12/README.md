@@ -97,3 +97,10 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 
 ![Soal 9](docs/s9.gif)
 
+### Soal 10
+Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
+
+![Soal 10](docs/s10.gif)
+
+Perbedaannya adalah syntax yang digunakan. Pada langkah 1, syntax yang digunakan adalah method chaining mulai dari .then().catchError() hingga .whenComplete(). Sedangkan pada langkah 4, syntax yang digunakan adalah method try-catch. Namun secara fungsionalitas sama.
+
