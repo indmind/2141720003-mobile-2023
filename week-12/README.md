@@ -104,3 +104,14 @@ Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya?
 
 Perbedaannya adalah syntax yang digunakan. Pada langkah 1, syntax yang digunakan adalah method chaining mulai dari .then().catchError() hingga .whenComplete(). Sedangkan pada langkah 4, syntax yang digunakan adalah method try-catch. Namun secara fungsionalitas sama.
 
+## Praktikum 6
+
+### Soal 11
+Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+
+```dart
+appBar: AppBar(
+  title: const Text('Current Location Tio'),
+),
+```
+
