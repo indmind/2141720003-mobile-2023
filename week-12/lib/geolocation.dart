@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 
-class LocationS extends StatefulWidget {
-  const LocationS({super.key});
+class LocationScreen extends StatefulWidget {
+  const LocationScreen({super.key});
 
   @override
-  State<LocationS> createState() => _LocationSState();
+  State<LocationScreen> createState() => _LocationScreenState();
 }
 
-class _LocationSState extends State<LocationS> {
+class _LocationScreenState extends State<LocationScreen> {
   String myPosition = "";
 
   @override
@@ -36,12 +36,15 @@ class _LocationSState extends State<LocationS> {
 
   @override
   Widget build(BuildContext context) {
+    final myWidget =
+        myPosition == '' ? const CircularProgressIndicator() : Text(myPosition);
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Current Location Tio'),
       ),
       body: Center(
-        child: Text(myPosition),
+        child: myWidget,
       ),
     );
   }
