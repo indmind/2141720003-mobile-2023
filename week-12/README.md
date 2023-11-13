@@ -168,3 +168,12 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 ![Soal 16](docs/s16.gif)
 
 Ketika tombol ditekan, maka akan mengarahkan ke halaman NavigationSecond yang dimana pada halaman tersebut terdapat beberapa button yang ketika ditekan maka akan mengembalikan halaman ke halaman NavigationFirst dengan mengirimkan data berupa warna yang dipilih.
+
+### Soal 17
+Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 17".
+
+![Soal 17](docs/s17.gif)
+
+Ketika tombol ditekan, maka akan mengarahkan ke halaman NavigationSecond yang dimana pada halaman tersebut terdapat beberapa button yang ketika ditekan maka akan mengembalikan halaman ke halaman NavigationFirst dengan mengirimkan data berupa warna yang dipilih.
