@@ -159,3 +159,12 @@ return Scaffold(
   ),
 );
 ```
+
+### Soal 16
+Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 16".
+
+![Soal 16](docs/s16.gif)
+
+Ketika tombol ditekan, maka akan mengarahkan ke halaman NavigationSecond yang dimana pada halaman tersebut terdapat beberapa button yang ketika ditekan maka akan mengembalikan halaman ke halaman NavigationFirst dengan mengirimkan data berupa warna yang dipilih.
