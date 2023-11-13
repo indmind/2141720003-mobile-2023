@@ -62,8 +62,16 @@ Sedangkan `count()` berfungsi untuk menjumlahkan nilai yang dikembalikan oleh fu
 
 ## Praktikum 3
 
-#### Soal 5
+### Soal 5
 Jelaskan maksud kode langkah 2 tersebut!
 Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5".
 
 ![Soal 5](docs/s5.gif)
+
+### Soal 6
+Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".
+
+Maksud kode tersebut adalah untuk menampilkan hasil dari fungsi `getNumber()` yang akan mengembalikan nilai 1 setelah 3 detik. Jika fungsi tersebut mengembalikan nilai, maka nilai tersebut akan ditampilkan pada variabel `result`. Jika fungsi tersebut mengembalikan error, maka variabel `result` akan diubah menjadi 'An error occurred'.
+
+![Soal 6](docs/s5.gif)

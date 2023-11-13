@@ -80,10 +80,18 @@ class _FuturePageState extends State<FuturePage> {
 
               // count();
 
+              // getNumber().then((value) {
+              //   setState(() {
+              //     result = value.toString();
+              //   });
+              // });
+
               getNumber().then((value) {
                 setState(() {
                   result = value.toString();
                 });
+              }).catchError((e) {
+                result = 'An error occurred';
               });
             },
           ),
