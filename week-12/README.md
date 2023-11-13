@@ -39,3 +39,11 @@ Future<Response> getData() async {
   return await http.get(url);
 }
 ```
+
+### Soal 3
+Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 3".
+
+`substring(0, 450)` berfungsi untuk mengambil karakter dari index ke 0 sampai ke index ke 449. `catchError` berfungsi untuk menangkap error yang terjadi pada future yang dijalankan.
+
+![Soal 3](docs/s3.gif)
