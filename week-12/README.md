@@ -47,3 +47,15 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 `substring(0, 450)` berfungsi untuk mengambil karakter dari index ke 0 sampai ke index ke 449. `catchError` berfungsi untuk menangkap error yang terjadi pada future yang dijalankan.
 
 ![Soal 3](docs/s3.gif)
+
+## Praktikum 2
+
+### Soal 4
+Jelaskan maksud kode langkah 1 dan 2 tersebut!
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4".
+
+Kode tersebut berfungsi untuk mendefinisikan fungsi yang akan dijalankan secara asynchronous. `returnOneAsync` akan mengembalikan nilai 1 setelah 3 detik, `returnTwoAsync` akan mengembalikan nilai 2 setelah 3 detik, dan `returnThreeAsync` akan mengembalikan nilai 3 setelah 3 detik.
+
+Sedangkan `count()` berfungsi untuk menjumlahkan nilai yang dikembalikan oleh fungsi `returnOneAsync`, `returnTwoAsync`, dan `returnThreeAsync` dan mengubah nilai dari variabel `result` menjadi hasil penjumlahan tersebut.
+
+![Soal 4](docs/s4.gif)
